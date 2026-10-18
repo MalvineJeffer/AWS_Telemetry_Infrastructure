@@ -1,6 +1,6 @@
 # AWS Telemetry Infrastructure (Terraform)
 
-An Infrastructure as Code (IaC) project leveraging **Terraform** to provision a secure, scalable, and modular AWS environment designed to ingest, store, and process high-throughput telematics and sensor stream data.
+An Infrastructure as Code (IaC) project leveraging Terraform to provision a secure, scalable, and modular AWS environment designed to ingest, store, and process high-throughput telematics and sensor stream data.
 
 ## 🏛 Architecture Overview
 - **Networking:** Dedicated Multi-AZ VPC with Public & Private Subnets, Internet Gateway, and NAT Gateways.
@@ -13,6 +13,8 @@ An Infrastructure as Code (IaC) project leveraging **Terraform** to provision a 
 - **Cloud Provider:** AWS (VPC, ECS, Fargate, S3, IAM, CloudWatch)
 - **Container Registry:** AWS ECR
 
+---
+
 ## 🚀 Usage
 
 ### Prerequisites
@@ -20,6 +22,7 @@ An Infrastructure as Code (IaC) project leveraging **Terraform** to provision a 
 - Terraform installed (`terraform -v`).
 
 ### Deployment Steps
+
 ```bash
 # Initialize working directory and download providers
 terraform init
